@@ -1,0 +1,50 @@
+
+.green{
+    color: green;
+}
+
+
+.red {
+    color: red;
+}
+
+
+
+ .hero{
+     width: 200px;
+     height: 200px;
+    background-color: paleturquoise;
+    content: "hello";
+    position:relative;
+}
+
+
+.hero_2
+
+{
+    position: absolute; 
+ 
+    bottom: 10px;
+    float:bottom;
+    background-color: rgb(144, 245, 97);
+    height: 10px;
+}
+
+
+
+.hero_3
+
+{
+    position: absolute; 
+
+    width: 10px;
+    float:left;
+    background-color: rgb(178, 109, 235);
+    height: 10px;
+}
+
+
+/* 
+.hero:after{
+    content:"helloe"
+} */

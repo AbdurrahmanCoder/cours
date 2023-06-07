@@ -1,0 +1,89 @@
+h1{
+    background-color: black;
+    color:white }
+
+ section p:first-child{
+    color: rgb(84, 172, 73);
+ }
+ 
+
+ section p:last-child{
+    color: rgb(21, 79, 156);
+ }
+
+ section p:nth-child(even){
+    color: rgb(22, 204, 189);
+
+    
+ }
+
+ section p:nth-child(odd)
+ {
+    color: brown;
+ }
+ 
+ section p:nth-child(4){
+    color: orange; }
+
+
+
+    .zone1{
+        color:red;
+    }
+    .zone2{
+        color: green;
+    }
+    
+
+.zone2 span {
+    color: limegreen;
+}
+
+
+#zone3{
+    background-color: #f5deb3;
+}
+
+#zone3:after {
+content:"rajouter aprés"
+}
+
+#zone3:before {
+   content:"rajouter avant "
+
+}
+ 
+
+/* 
+.zone5{
+    color: white;
+    background-color: red;
+} */
+
+
+
+ul li:nth-child(2){
+    background: red;
+    color: rgb(7, 196, 70);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
