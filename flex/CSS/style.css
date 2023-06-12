@@ -1,0 +1,140 @@
+h1{
+background-color: #3a4454;
+color: whitesmoke;
+padding: 1em;
+
+}
+
+h2{
+background-color: #6b376b;
+color: white;
+padding: 0.5em;
+}
+
+
+h3{
+    background-color: #c2b2b4;
+    color: #610f7f;
+    padding: 0.25em;
+}
+
+.contenu_1{
+    border: 1px solid orange;
+   height: 200px;
+display: flex;
+/* flex-direction: row-reverse; */
+ 
+ 
+justify-content: space-around;
+
+/* la valeur par default ici c'est flex-start les valeur possible ici (centre, flex-end, flex-start, space-between, space-around) */
+/* space-between elements sont répartiess sur totalité  de la ligne (l'axe principale qui est définit par flex direction ) en crayant des espaces entre les elements
+
+space-around: les élements sont réparties sur la totalité de la ligne en cranyant des especes alentours des élement 
+centre :il va centrer les élement dans le contenuer
+*/
+
+ 
+align-items: flex-end;
+/* alin-items permet d'aligner l'element des élement flexible au sein d'une ligne (ou de colone) selon l'axe secondaire */
+
+/* la valeur par default est flex-start, les valeur disponible (flex-end,flex-start,center,baseline */
+}
+
+.item1{
+    background-color: lightsalmon;
+    width: 80px;
+    height: 80px;
+    flex-grow: 2  ; 
+
+    
+    order: 2;
+    flex-basis: 200px;   
+     
+}
+
+
+.item2{
+    background-color: green;
+    width: 80px;
+    height: 80px;
+    flex-basis: 200px;   
+    order: 3;
+}
+
+.item3{
+    background-color: red;
+    width: 80px;
+    height: 80px;
+    flex-grow: 2;   
+   order:1;
+}
+
+ 
+
+.contenu_2{
+    
+    /* height: 900px; */
+    
+    display: flex;
+    height: 400px;
+     flex-direction: row;
+     justify-content:center;
+     align-items: center;
+    }
+    
+    .contenu_3{
+        
+        /* height: 900px; */
+        
+        display: flex;
+        height: 400px;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    } 
+    
+    .contenu_4{
+        
+        /* height: 900px; */
+        
+        display: flex;
+        height: 400px;
+        
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+    justify-content: space-between;
+    
+}
+
+
+
+
+.item4{
+    background-color: lightsalmon;
+    width: 80px;
+    height: 80px;
+    order: 3;
+     /* flex-grow: 2;  */
+     flex-shrink: 2;
+}
+
+
+.item5{ 
+    background-color: green;
+    width: 80px;
+    height: 80px;
+    /* flex-grow: 1; */
+    flex-shrink: 1;
+    
+}
+
+.item6{
+    background-color: red;
+    
+    width: 80px;
+    height: 80px;
+    flex-shrink: 1;
+    
+}
+ 

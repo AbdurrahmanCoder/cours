@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+    
+<a href="#onglet">lien</a>
+
+<h1 id="tops"> LES DIFFERENT LIEN D'UNE PAGE HTML</h1>
+
+
+<P> LES LIENS PERMETTENT DE PASSER D'UNE PAGE à UNE AUTRE DANS LE MEME SITE, VERS UN AUTRE SITE, COMME D'AUTRE ACTION </P>
+
+
+<H2> MES ANCRES : LIENS à L'INTERIEUR DE LA MEME PAGE DU SITE </H2>
+
+
+<P> LES ANCRES SONT PARTICULIEREMENT UTILES SUR LES SITES WEB INTEGRANT BEAUCOUP DE CONTENU </P>
+
+<P> <a href=" #interieur "> lien INTERIEUR sur une page du site </a> </P>
+<P> <a href="#">lien ouvrant un nouvel onglet</a>  </P>
+<P> <a href=" #see ">lien de visulisation d'un ficher </a> </P>
+<P> <a href=" #download "> lien de téléchargement d'un ficiher pdf</a></P>
+<P> <a href=" #image'clic ">lien sur image</a> </P>
+<P> <a href=" #print "> lien PERMETTENT d'imprimer la page en cours </a> </P>
+ 
+
+
+
+<h2 id="interieur "> lien interieur sur une autre page du site </h2>
+
+<p> la balise &lt; a> permet de créer un lien hypertext et l'attribut </p>
+
+
+<em> href </em> permet de définir la destination de le lien  
+
+
+<a href="#tops">clique moi</a>
+
+<p> <a href="lien.html"> clique ici pour aller au autre lien</a></p>
+
+
+<h2 id="onglet"> lien ouvrant un nouvel onglet  </h2>
+
+
+
+
+<p> sans fermer l'onglet du site consulté, on va consulter un autre site en ouvrant un nouvel onglet</p>
+
+
+
+<h2 id="site"> lien vers un autre site   </h2>
+
+<p> l'attribut <em> href </em> permet de définir la destination du lien et l'attribut <em>title </em>  affiche une info-bulle au sursol de la souris   </p>
+
+<a href="https://www.20minutes.fr" target="blank" title=" rendre sur 20 minute actualite">20 minutes</a>
+
+
+<p class="code "> &lt;a href =" https://www.20minutes.fr " title se rendre sur 20 minutes - actulite 20 minutes &lt; /a></p>
+
+
+<h2 id="téléchargement" > lien de télechargment d'un fichier </h2>
+
+<!-- deux maniére  -->
+<p>ce lien permet de proposer le télechargement d'un fichier attention à l'arborescence des répertoire si votre fichier n'est pas dans le meme répertoire que le fichier index.html</p>
+
+<a href="document.doc"> télechargement le fichier</a>
+
+<p class="code">&lt; a href="document.doc "> télechargement le fichier &lt;/a> </p>
+
+
+
+<p>ce lien dotté de m'attribut <em> download </em> propode le télechargement d'un fichier </p>
+
+<a href="Document.pdf" download> télechargement l'image &lt;/a> </a>
+
+
+<p>pour ouvre une fichier </p>
+
+<a href="Document.pdf"  target="blank"> télechargement l'image &lt;/a> </a>
+
+<p>lien sur un image </p>
+
+<p>ce lien ouvre une autre utl en cliquant sur une image </p>
+
+<a href="http://www.20minutes.fr">   <img src="téléc.jpg"  >  </a>
+
+
+<!-- <img src="lion.jpeg"  > -->
+
+
+<h2> lien PERMETTENT d'imprimer la page en cours </h2>
+<a href="" onclick="window.print()">imprimer</a>
+
+
+ 
+
+
+</body>
+</html>

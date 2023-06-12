@@ -1,0 +1,27 @@
+/* section{
+    width: 50vw;
+    height: 50vh;
+}
+ */
+
+.cube{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(164, 235, 164);
+    border-radius: 20%;
+    padding: 20px;
+    float: left;
+    margin:1rem; 
+
+ 
+}
+
+.clear{
+    clear: both;
+}
+
+
+.cube:nth-child(1)  ,:nth-child(3),:nth-child(6) ,:nth-child(8)   {
+    background: rgb(238, 134, 241);
+ 
+}

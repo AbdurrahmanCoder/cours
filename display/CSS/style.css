@@ -1,0 +1,22 @@
+  .block
+{
+    display: block;
+
+}
+
+
+
+
+.inline
+{
+    display: inline;
+}  
+
+
+p{
+
+    text-align: center;
+    border:  1px solid orchid;
+    background-color: lightblue;
+
+}

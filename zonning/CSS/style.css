@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+}
+body{
+    background-color: aquamarine;
+margin: auto 20% ;
+}
+
+header{
+    background-color: rgb(153, 22, 22);
+height: 80px;
+
+}
+
+
+nav{
+    background-color: rgb(97, 9, 9);
+    height: 50px;
+
+}
+
+  /* main{
+    display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+.yel, .cyan , .black, .yellow {
+ 
+  width: 208px;  
+ display: flex;
+ flex-direction: row;
+  height: 100px;
+  border: 1px solid white;
+ 
+} 
+ */
+
+ section{  
+    height: 500px;
+    background-color: gray;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+ 
+
+.div1, .div2, .div3, .div4{
+    border: 1px solid black;
+    height: 248px;
+    width: 468px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+ 
+
+.div1 > div
+{
+    border: 1px solid;
+    height: 122px;
+    width: 232px;
+    text-align: center;
+ 
+
+}
+
+.div2 > div
+{
+  
+    border: 1px solid;
+    height: 122px;
+    width: 232px;
+    text-align: center;
+}
+.div3 > div
+{
+  
+    border: 1px solid;
+    height: 122px;
+    width: 232px;
+    text-align: center;
+}
+.div4 > div
+{
+ 
+    border: 1px solid;
+    height: 122px;
+    width: 232px;
+    text-align: center;
+
+}
+
+ 
+
+
+
+
+
+div{
+    color: rgb(238, 10, 10);
+}
+
+
+.cyan{
+background-color: lightcyan;
+}
+
+
+.black{
+    background-color: black;
+    }
+
+    
+.yellow{
+    background-color: yellow;
+    }
+
+    
+.yel{
+    background-color:  lightyellow;
+    }
+    
+    
+
+
+
+
+ 
+
+
+   
+
+
+
+
+/* main > div{
+    width: 50%; 
+    background-color: red;
+    height: 150px;
+    float: left;
+  }
+ */
+
+/* 
+
+
+  main > div:nth-child(2){
+     
+    background-color: rgb(225, 35, 231);
+ 
+  }
+
+  main > div:nth-child(3){
+     
+    background-color: rgb(27, 49, 146);
+ 
+  }
+
+  main > div:nth-child(4){
+     
+    background-color: rgb(13, 218, 30);
+ 
+  } */
+
+  
+footer{
+    background-color: rgb(97, 9, 9);
+
+    height: 80px;
+
+}

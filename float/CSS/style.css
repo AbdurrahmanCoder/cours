@@ -1,0 +1,46 @@
+*{
+    /* box-sizing: border-box;  */
+    /* box-sizing: content-box; */
+}
+
+
+body{
+margin:0 auto ;
+width:90;
+}
+
+div{
+    width: 90%;
+    margin: 0 auto ;
+    background-color: lightsteelblue;
+
+}
+
+
+
+.boite
+{
+    height: 11vh;
+    width: 18vh;
+    padding: 5vh;
+    margin: 5vh;
+    background-image:url(../siamois.jpg) ;
+     /* background-color:orchid ;   */
+background-position: center;
+border: 5px solid orchid;
+background-repeat: no-repeat;
+background-position: center;
+float: left; 
+
+/* effet floattat  */
+
+}
+
+.boite:hover{
+    margin-top: 20px;
+translate: 180° ;
+}
+
+.clear {
+    clear:both
+}
