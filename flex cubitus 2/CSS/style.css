@@ -1,0 +1,41 @@
+/* body{
+    display: flex;
+    justify-content: center;
+} */
+
+
+/* 
+section{
+   display: flex;
+justify-content: center;
+height: 500px;
+width: 640px;
+flex-wrap: wrap;   
+align-content: center;
+margin-top: 200px;
+text-align: center;
+gap: 5px;
+} */
+
+
+
+
+section{
+    display: block;
+    height: 100px;
+width: 640px;
+ 
+}
+
+
+
+
+div{
+    float: left;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    border-radius: 30% 5% 30% 5% ;
+ border: 1px solid black;
+
+}
