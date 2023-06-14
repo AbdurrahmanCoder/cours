@@ -1,0 +1,43 @@
+Originally Answered: how do I get started with front-end development?
+Start with the easiest then to the hard.
+
+Basic HTML and CSS
+
+Learn basic html tag.
+Create table with html, rowspan , colspan etc
+Create Form , Navbar , and Footer
+Learn basic CSS : margin, padding, font ,etc
+Learn about responsive website , prefer to use ‘%’ (percentage) in width and height, or using max-width , min-width .
+Know about responsive. `@media` query for multi-platform website
+Know about browser compatibility , Chrome, Firefox, IE, Edge, Safari, Opera etc
+Learn to use css framework and library: Bootstrap, Material CSS, etc
+and many more you could search in google
+CREATE A SIMPLE PROJECT USING HTML+CSS LAYOUT
+Basic Javascript as the magic
+
+Learn javascript in basic.
+Try to get text from input form using javascript
+Try to manipulate UI using simple java script , example : hide a element, etc
+Learn to use jquery.
+Learn to use ajax call.
+Learn ES6 Features , as the current javascript standard
+To be next level : Learn TypeScript.
+and many more you could search in google
+ADD MAGIC TO YOUR LAST SIMPLE PROJECT USING JAVASCRIPT
+Framework
+
+Learn to at least one framework . Choose the popular one, so you could easily find help when struggle and stuck. You can choose Angular, React Js , Vue Js.
+After you’ve learn one, learn the other. And choose the best fit for your styles and your needs.
+MIGRATE YOUR LAST PROJECT INTO FRAMEWORK
+Extras
+
+Learn how to consume REST API
+Learn how to do mocking data
+Learn how to do E2E testing
+Learn how to do UI Testing
+Learn to build and deploy
+Know a little backend, it’s good to know more.
+and many more you could search in google
+If you confuse what simple project will you do, I suggest you make your own portofolio web , or your personal blogs.
+
+Why you still read Quora? Start now!!! Come on!! Reading is good thing, but execution is another thing :D

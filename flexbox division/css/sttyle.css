@@ -1,0 +1,47 @@
+body
+{
+    margin: auto 10% ;
+}
+header{
+    background-color: red;
+ 
+}
+footer
+{
+    width: 60%;
+ position: relative;
+    background-color: yellow;
+  top:-99px; 
+left: 70px;
+height: 100px;
+width: 87%;
+
+/* top: -100px; left: 100px; */
+}
+
+
+main{
+    display: flex;
+    flex-direction: row; 
+  
+}
+
+ .zone
+{
+
+    background-color: blue;
+    height: 300px;
+    width: 200px;
+border: 1px solid black;
+display: flex;
+flex-direction: row-reverse;
+}
+
+
+section{
+ display: flex;
+  height:400px;  
+  background-color: blue;
+}
+
+ 
