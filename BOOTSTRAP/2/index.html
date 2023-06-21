@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    
+</head>
+ <body>
+<!-- bootstrap est un framework css, il est comporte beaucoup de possibilitiés. ici nous verouns
+ensemble ses principale de fontionnement et les bases de son utilisation. A chacun d'aller
+explorer en details ce qu'il est possible de faire avec bs.
+bs permet d'avoir un site immédiatement responsive, il faut savoir que les sites internet
+non responsive ne sont pas plus référence depuis 2015 
+BS part du principe que chaque élément HTML de types bloc à 12 colonnes  -->
+
+
+
+<div class="container bg-primary">
+<h2>les contenuer ou blocs principaux</h2>
+</div>
+
+<div class="container-fluid c3 bg-success">
+    <p>contenuer fluide </p>
+</div>
+
+
+<div class="container c4 bg-danger">
+    <p>contenuer  </p>
+</div>
+<!-- 
+la class container-fluid de bs va occuper 100% de la largeur de l'ecran. si je l'utilise
+imbrique dans autre élément de bs bien entendu ce bloc occupera 100% de la largeur 
+disponible (quest définnie par l'element parent )
+
+
+la class .container de bs permet de travailler sur une page occupant environ de la largeur
+de l'ecran et dont le contenu est centré (margin:0  auto)
+
+
+
+par défault si je travaille sans déclarer de div avec une class container ou conatiner-fluid
+l'afficage se fait sur 100% de la largeur -->
+
+
+
+<div class="container">
+
+<h2>le system de grille</h2>
+<h2>ligne .row</h2>
+
+<div class="row bg-primary">1</div>
+<div class="row bg-info">2</div>
+<div class="row bg-primary">3</div>
+
+pour chaque nouveau bloc de code je passe à la ligne avec une div à laquelle 
+je mets la class row
+
+
+<h3>les colonnes .col</h3>
+<div class="row">
+<div class="col bg-primary">colonne 1</div>
+<div class="col bg-info">colonne 2</div>
+<div class="col bg-success">colonne 3</div>
+</div>
+
+
+
+
+
+
+
+<h3>pariel avec 5 colonnes par exemple</h3>
+<div class="row">
+
+
+<div class="col bg-primary">colonne 1</div>
+<div class="col bg-info">colonne 2</div>
+<div class="col bg-danger">colonne 3</div>
+<div class="col bg-success">colonne 4</div>
+<div class="col bg-secondary" >colonne 5</div>
+
+
+
+</div>
+
+
+<!-- 
+
+la classe col-md-1 
+col=colonne
+md='medium'
+les lettre correspondent au comportement attendu selon la taille d'ecran bs gére les valeur
+suivantes:
+.coml-*(extra small -telephone)
+.coml-sm-*(small -tablette >=576)
+.coml-md-*(medium -15 puces >=786)
+.coml-lg-*(large -ecran large >=992)
+.com-xl-*(extra large >=1200)
+.com-xxl-*(extra extra large >=1400)
+
+ces valeur sont des breakpoints (point d'arret): un peu comme une frontiére,dés qu'on  la 
+dépasse on change de régle
+
+le comportement de bs est prévu pour etre 'mobile first ':càd que les breakpoints
+sont à lire "à partir de la taille md et plus "
+
+-le chiffre * correspond au nombre de colonnes prises par l'element:valeur possible 1 à 12
+
+
+
+ -->
+
+
+ <div class="row">
+    <h3>colo-6 </h3>
+    <div class="col bg-primary">colonne 1</div>
+    <div class="col-6 bg-info">colonne 2</div>
+    <div class="col bg-danger">colonne 3</div>
+    </div>
+    
+
+    <div class="row">
+    <h3>colo-10 </h3>
+
+        <div class="col bg-primary">colonne 1</div>
+        <div class="col-10 bg-info">colonne 2</div>
+        <div class="col bg-danger">colonne 3</div>
+        </div>
+        
+
+        <div class="row">
+    <h3>colo-7 colo-3 </h3>
+            
+            <div class="col-7 bg-primary">colonne 1</div>
+            <div class="col  bg-info">colonne 2</div>
+            <div class="col-3 bg-danger">colonne 3</div>
+            </div>
+
+            <div class="row">
+                <h3>colo-4 colo-6 colo-4  </h3>
+                        
+                        <div class="col-4 bg-primary">colonne 1</div>
+                        <div class="col-6  bg-info">colonne 2</div>
+                        <div class="col-4 bg-danger">colonne 3</div>
+                        </div>
+
+
+<h2>alignment de text</h2>
+<div class="row"></div>
+<div class="col"></div>
+<p class="text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores aliquam assumenda autem inventore quis vel, perspiciatis ratione odit, cumque mollitia fugit. Placeat ipsa voluptatibus assumenda eligendi expedita? Ut, delectus repellendus.
+    </p> 
+
+<p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores aliquam assumenda autem inventore quis vel, perspiciatis ratione odit, cumque mollitia fugit. Placeat ipsa voluptatibus assumenda eligendi expedita? Ut, delectus repellendus.
+    </p>
+ 
+<p class="text-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores aliquam assumenda autem inventore quis vel, perspiciatis ratione odit, cumque mollitia fugit. Placeat ipsa voluptatibus assumenda eligendi expedita? Ut, delectus repellendus.
+</p>
+
+
+<hr>
+
+<h3>imbriquer des blocs de la grille </h3>
+
+
+
+<div class="row">
+    <div class="col-sm-29 bg-info">
+        1er niveau : col-sm-9
+
+    <div class="row">
+        <div class="col-8 col-sm-6 bg-success">
+            2em niveau : col-4 .col-sm-6
+        </div>
+        <div class="col-4 col-sm-6 bg-secondary">3eme</div>
+        2eme col-4 .col-6
+<div class="row">
+    <div class="col-4 bg-warning">3eme</div>
+            <div class="col-4 bg-dark">3eme</div>
+            <div class="col-4 bg-primary">3eme</div>
+        </div>
+    </div>
+</div>
+</div>
+ <div class="col-sm-3 c2 bg-danger">1er niveau : col-sm-3</div> 
+                    
+
+
+
+
+
+
+ <h2>les couleurs</h2>
+ <h3>les alerts </h3>
+ <div class="alert alert-primary">primary</div>
+ <div class="alert alert-success">success</div>
+ <div class="alert alert-danger">danger</div>
+ <div class="alert alert-secondary">secondary</div>
+ <div class="alert alert-info">info</div>
+ <div class="alert alert-light">light</div>
+ <div class="alert alert-dark">dark</div>
+ 
+
+<h3>les buttons </h3>
+<button type="button" class="btn btn-primary">primary</button>
+<button type="button" class="btn btn-secondary">secondary</button>
+
+<button type="button" class="btn btn-success">success</button>
+
+<button type="button" class="btn btn-danger">danger</button>
+
+<button type="button" class="btn btn-warning">warning</button>
+
+<button type="button" class="btn btn-info">info</button>
+
+<button type="button" class="btn btn-light">light</button>
+
+<button type="button" class="btn btn-dark">dark</button>
+
+<div class="d-flex  ">
+
+ <button type="button" class="btn btn-outline-primary">primary</button>
+ <button type="button" class="btn btn-outline-secondary">secondary</button>
+ 
+ <button type="button" class="btn btn-outline-danger">danger</button>
+
+ <button type="button" class="btn btn-outline-warning">warning</button>
+ <button type="button" class="btn btn-outline-info">info</button>
+
+ <button type="button" class="btn btn-outline-light">light</button>
+
+ <button type="button" class="btn btn-outline-dark">dark</button>
+ 
+</div>
+
+
+<h2> les formulaire</h2>
+<div class="form-group">
+<label for="email">Email</label>
+<input type="email" class="form-control" id="email" placeholder="email">
+
+<small id="emailhelp" class="form-text text-muted"> nous ne diffusons pas vos coordonees</small>
+</div>
+
+<div class="form-group">
+    <label for="mdp">mot de passe</label>
+    <input type="password" class="form-control" id="mdp" placeholder="mot de passe">
+</div>
+<br>
+<button type="submit" class="btn  btn-outline-info btn-block" >envoyer</button>
+
+
+
+
+
+
+
+
+
+<h2>les tableaux</h2>
+<div class="col-6">
+    
+    <table class="table table-dark table-hover">
+        
+        <thead>
+            
+            <tr>
+                
+                <th scope="col">#</th>
+                <th scope="col">prénom</th>
+                <th scope="col">nom</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>kiwi</td>
+                <td>tigre</td>
+                
+            </tr>
+            
+            
+            <tr>
+                <th scope="row">2</th>
+                <td>créme</td>
+                <td>yuki</td>
+            </tr>
+            
+            
+            
+
+        </tbody>
+        
+        
+        
+        
+    </table>
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+</body>
+</html>

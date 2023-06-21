@@ -1,0 +1,15 @@
+ 
+img{
+    width: 20vw;
+    height: 60vh;
+}
+
+
+p,
+label {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input {
+    margin: 0.4rem;
+}

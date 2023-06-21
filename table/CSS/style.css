@@ -1,0 +1,49 @@
+ 
+body{
+
+    margin:auto 30%  ;
+    width: 40%;
+    float: center;
+}
+
+.espace1, .espace7 {
+  
+    height:100px;
+
+ 
+}
+.espace8,.espace7 {
+text-align: center;
+ 
+}
+   
+ 
+.espace9 , .espace10 ,.espace1{
+ width: 100%;
+}**
+ 
+
+.espace2 > td{
+/* border: 1px solid black; */
+}
+ 
+
+.espace9, .espace10{
+height: 100px;
+}
+
+table{
+border: 1px solid black;
+width: 100%;
+border-collapse: collapse;
+ 
+}
+ .espace1{
+    text-align: center;
+ }
+ 
+ a{
+    padding: 20px;;
+    margin: 30px;
+
+ }

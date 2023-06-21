@@ -21,10 +21,6 @@ function goNext()
 {
   counter ++;
   slideImage()
- if(counter = 9)
-{
-    counter === 1;
-}
      
 }
 
@@ -32,7 +28,7 @@ const slideImage = ()=> {
 
     coros.forEach(
         (coro) => {
-        coro.style.transform = `translateX(-${counter * 100}%)`
+        coro.style.transform = `translateX(${-counter * 100}%)`
         
 
 }  )}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header> 
+    <h1>coder avec emmet</h1>
+</header>
+    
+<nav>
+
+    <a href="#html"></a>
+    <a href="#css"></a>
+
+
+</nav>
+<h2 id="html"> HTML</h2>
+
+
+
+<div>
+    <h3>ajouter un élement enfant : ">"</h3>
+    <code>li>p</code>
+    <code>ul >li >p</code>
+<p>résultat</p>
+</div>
+
+<!-- div>h3+code+p{resultant/} -->
+<div>
+    <h3>ajouter un frere</h3>
+    <code>UL >li>p+a</code>
+    <p>resultant</p>
+</div>
+
+<div>
+    <h3>multiplier un element</h3>
+    <code>ul>li*3</code>
+    <p>résultat</p>
+</div>
+
+<div>
+    <h3>ajouter une class: "."</h3>
+    <code>ul.white</code>
+    <p>résultat</p>
+</div>
+
+
+<div>
+    <h3>>Grouper des élements:"()"</h3>
+    <code>ul>(header>ul>li*2>a)footer>p</code>
+    <code>ul>(li>p+img+a)+li*2>p>img</code>
+    <p>résultat</p>
+</div>
+
+ 
+
+<div>
+    <h3>inserer du text dans un élement: "{}"</h3>
+    <code>a{clic ici}</code>
+    <code>p{click}+a{here}+{to continue}</code>
+    <p>resultat</p>
+</div>
+ 
+ 
+<div>
+    <h3>ajouter une numérotation: "1"</h3>
+    <code>ul>li.item$*5</code>
+    <code>ul>li.item$*5>{zone $}</code>
+
+</div>
+ 
+
+<div>
+    <h3>commencer la numeration au chiffre voulu : "$@X"  </h3>
+        <code>ul>li#id</code>
+        <code>ul>li.item$@3*5</code>
+        <p>résultat</p>
+
+</div>
+
+
+<div>
+    <h3>remonter d'un element enfant:
+        <code>div>p>em{hello}^a</code>
+        <code></code>
+        <p>résultat</p>
+    </h3>
+</div>
+
+
+<div>
+    <p><em>hello<a href=""></a></em></p>
+</div>
+
+<div>
+    <p><em>hello</em><a href=""></a></p>
+</div>
+
+<div>
+    <p><em>hello</em></p>
+    <a href=""></a>
+</div>
+
+<div>
+    <h3></h3>
+    ><code>div.list>ul>(li.item$>p{parapgraph $}+img[src="http://placecage.com/300/300"])+li.item$@2*4>p{paragraph $@2}+img[src="http://placesheen.com/$@1$$/$@5$$"]+a^^^footer>p{Place cage vrs placesheen}
+
+    </code>
+
+</div>
+
+
+<div class="list">
+    <ul>
+        <li class="item1">
+            <p>parapgraph 1</p>
+            <img src="http://placecage.com/300/300" alt="">
+        </li>
+        <li class="item2">
+            <p>paragraph 2</p>
+            <img src="http://placesheen.com/101/501" alt=""><a href=""></a></li>
+        <li class="item3">
+            <p>paragraph 3</p>
+            <img src="http://placesheen.com/202/602" alt=""><a href=""></a></li>
+        <li class="item4">LL
+            <p>paragraph 4</p>
+            <img src="http://placesheen.com/303/703" alt=""><a href=""></a></li>
+        <li class="item5">
+            <p>paragraph 5</p>
+            <img src="http://placesheen.com/404/804" alt=""><a href=""></a></li>
+    </ul>
+</div>
+<footer>
+    <p>Place cage vrs placesheen</p>
+</footer>
+
+div.list>ul>(li.item$>p{parapgraph $}+img[src="http://placecage.com/300/300"])+li.item$@2*4>p{paragraph $@2}+img[src="http://placesheen.com/$@1$$/$@5$$"]+a^^^footer>p{Place cage vrs placesheen}
+
+
+
+
+<p>le regroupement suivent contient les &lt; li> 2 à 5, en multipliant des listes dont les noms de classe, contenu
+    de paragraph et valeur d'attributes s'inscrément selon des syntaxe differe
+</p>
+
+</body>
+ 
+</html>
