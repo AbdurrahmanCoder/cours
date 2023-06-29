@@ -1,0 +1,39 @@
+ body{
+    margin: auto 27% ;
+ }
+h1{
+ color: white;
+ text-align: center; 
+ font-family: "Shadows Into Light";
+ font-size: 50px;
+ line-height: 65px;
+padding: 6px;
+}
+main{
+ background-color: #29347B;
+}
+
+section{
+ display: flex;
+ justify-content:space-around;
+ text-align: center;
+} 
+
+figcaption{
+ color: white;
+ font-family: "Shadows Into Light";
+ font-size: 24px;
+}
+
+section > div{
+ padding: 20px;
+}
+
+
+.SecImg{
+ padding-bottom: 20px;
+}
+
+img{
+    max-width: 100%;
+}

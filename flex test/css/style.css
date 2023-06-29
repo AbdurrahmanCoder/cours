@@ -1,26 +1,40 @@
+ 
 section{
  background-color: rgb(0, 254, 60);
-display: flex;
-height: 100%;
-flex-direction: row;
+ display: flex;
+  /* justify-content: center;   */
+ height: 500px;
+ 
+flex-wrap: wrap;
 }
 .flex1,.flex2,.flex3 ,.flex4
 {
+ display: flex;
+ width: 50%;
+ flex-direction: row;
+ 
+flex-wrap: wrap;
  
 }
+
+ 
 section > div > div{
-   width: 200px;
-   height: 200px;
+ 
+   width: 49.5%;
+   height: 122px; 
+   text-align: center;
+   border: 1px solid;
+
+   background-color: aqua;
    border: 1px solid black;
 }
-
-
+ 
 .blue{
     background-color: blue;
 }
 
 .green{
-    background-color: green;
+      background-color: rgb(255, 255, 255); 
 }
 .purple{
     background-color: purple;

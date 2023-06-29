@@ -59,42 +59,70 @@
 
  body{
     background-color: red;
- height: 100%;
-  width: 100vw;
+ margin: 20% auto;
+ animation: anima 15s infinite;
+ 
+}
+ @keyframes anima {
+    0% {background-color: yellow;}     
+
+    25% {background-color: rgba(120, 16, 194, 0.737);}  
+    55% {background-color: rgb(34, 18, 214);}  
+    75% {background-color: rgb(41, 203, 4);}  
+
+    100% {background-color: rgb(53, 53, 52);} 
+
 }
  
- 
-
-
-.div1, .div2, .div3, .div4{
-     
-    background-color: green;
-    
-}
-
 
 section{
     display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    justify-content: center;
+    align-content: center;
+    background-color:purple;
+    justify-content: center;
+}
+
+
+
+.div1, .div2, .div3, .div4{
+    width: 50%; 
+ display: flex;
+flex-wrap: wrap;
+ 
+    
 }
 
 
 
 .cyan{
 background-color: lightcyan;
+width: 49.5%;
+
+height: 200px;
 }
 
 
 .black{
+width: 49.5%;
+height: 200px;
     background-color: black;
     }
 
     
 .yellow{
+width: 49.5%;
+height: 200px;
     background-color: yellow;
     }
 
     
 .yel{
+width: 49.5%;
+height: 200px;
+
     background-color:  lightyellow;
     }
     
